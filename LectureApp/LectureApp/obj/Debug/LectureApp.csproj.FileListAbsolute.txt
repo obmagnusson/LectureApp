@@ -1,0 +1,5 @@
+C:\Users\Olafur\Documents\Visual Studio 2012\Projects\LectureApp\LectureApp\obj\Debug\LectureApp.csprojResolveAssemblyReference.cache
+C:\Users\Olafur\Documents\Visual Studio 2012\Projects\LectureApp\LectureApp\bin\LectureApp.dll
+C:\Users\Olafur\Documents\Visual Studio 2012\Projects\LectureApp\LectureApp\bin\LectureApp.pdb
+C:\Users\Olafur\Documents\Visual Studio 2012\Projects\LectureApp\LectureApp\obj\Debug\LectureApp.dll
+C:\Users\Olafur\Documents\Visual Studio 2012\Projects\LectureApp\LectureApp\obj\Debug\LectureApp.pdb

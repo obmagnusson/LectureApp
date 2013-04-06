@@ -1,0 +1,1535 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebMatrix.WebData.2.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider">
+            <summary>Shim type of WebMatrix.WebData.ExtendedMembershipProvider</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.#ctor(WebMatrix.WebData.ExtendedMembershipProvider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.Constructor">
+            <summary>Sets the shim of ExtendedMembershipProvider.ExtendedMembershipProvider()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.CreateAccountStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.CreateAccount(String userName, String password)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.CreateOrUpdateOAuthAccountStringStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.CreateOrUpdateOAuthAccount(String provider, String providerUserId, String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.CreateUserAndAccountStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.CreateUserAndAccountStringStringBoolean">
+            <summary>Sets the shim of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password, Boolean requireConfirmation)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.CreateUserAndAccountStringStringIDictionaryOfStringObject">
+            <summary>Sets the shim of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password, IDictionary`2&lt;String,Object&gt; values)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.DeleteOAuthAccountStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.DeleteOAuthAccount(String provider, String providerUserId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.DeleteOAuthTokenString">
+            <summary>Sets the shim of ExtendedMembershipProvider.DeleteOAuthToken(String token)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.GeneratePasswordResetTokenString">
+            <summary>Sets the shim of ExtendedMembershipProvider.GeneratePasswordResetToken(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.GetOAuthTokenSecretString">
+            <summary>Sets the shim of ExtendedMembershipProvider.GetOAuthTokenSecret(String token)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.GetUserIdFromOAuthStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.GetUserIdFromOAuth(String provider, String providerUserId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.GetUserNameFromIdInt32">
+            <summary>Sets the shim of ExtendedMembershipProvider.GetUserNameFromId(Int32 userId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.HasLocalAccountInt32">
+            <summary>Sets the shim of ExtendedMembershipProvider.HasLocalAccount(Int32 userId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.ReplaceOAuthRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.ReplaceOAuthRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.StoreOAuthRequestTokenStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.StoreOAuthRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.VerifyInitialized">
+            <summary>Sets the shim of ExtendedMembershipProvider.VerifyInitialized()</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.CreateAccountStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.CreateAccount(String userName, String password)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.CreateOrUpdateOAuthAccountStringStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.CreateOrUpdateOAuthAccount(String provider, String providerUserId, String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.CreateUserAndAccountStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.CreateUserAndAccountStringStringBoolean">
+            <summary>Sets the shim of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password, Boolean requireConfirmation)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.CreateUserAndAccountStringStringIDictionaryOfStringObject">
+            <summary>Sets the shim of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password, IDictionary`2&lt;String,Object&gt; values)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.DeleteOAuthAccountStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.DeleteOAuthAccount(String provider, String providerUserId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.DeleteOAuthTokenString">
+            <summary>Sets the shim of ExtendedMembershipProvider.DeleteOAuthToken(String token)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.GeneratePasswordResetTokenString">
+            <summary>Sets the shim of ExtendedMembershipProvider.GeneratePasswordResetToken(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.GetOAuthTokenSecretString">
+            <summary>Sets the shim of ExtendedMembershipProvider.GetOAuthTokenSecret(String token)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.GetUserIdFromOAuthStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.GetUserIdFromOAuth(String provider, String providerUserId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.GetUserNameFromIdInt32">
+            <summary>Sets the shim of ExtendedMembershipProvider.GetUserNameFromId(Int32 userId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.HasLocalAccountInt32">
+            <summary>Sets the shim of ExtendedMembershipProvider.HasLocalAccount(Int32 userId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.ReplaceOAuthRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.ReplaceOAuthRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.StoreOAuthRequestTokenStringString">
+            <summary>Sets the shim of ExtendedMembershipProvider.StoreOAuthRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimExtendedMembershipProvider.AllInstances.VerifyInitialized">
+            <summary>Sets the shim of ExtendedMembershipProvider.VerifyInitialized()</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.ShimFormsAuthenticationSettings">
+            <summary>Shim type of WebMatrix.WebData.FormsAuthenticationSettings</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimFormsAuthenticationSettings.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimFormsAuthenticationSettings.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimFormsAuthenticationSettings.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimFormsAuthenticationSettings.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimFormsAuthenticationSettings.StaticConstructor">
+            <summary>Sets the shim of FormsAuthenticationSettings.FormsAuthenticationSettings()</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.ShimOAuthAccountData">
+            <summary>Shim type of WebMatrix.WebData.OAuthAccountData</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimOAuthAccountData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimOAuthAccountData.#ctor(WebMatrix.WebData.OAuthAccountData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimOAuthAccountData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimOAuthAccountData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimOAuthAccountData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimOAuthAccountData.ConstructorStringString">
+            <summary>Sets the shim of OAuthAccountData.OAuthAccountData(String provider, String providerUserId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimOAuthAccountData.ProviderGet">
+            <summary>Sets the shim of OAuthAccountData.get_Provider()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimOAuthAccountData.ProviderSetString">
+            <summary>Sets the shim of OAuthAccountData.set_Provider(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimOAuthAccountData.ProviderUserIdGet">
+            <summary>Sets the shim of OAuthAccountData.get_ProviderUserId()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimOAuthAccountData.ProviderUserIdSetString">
+            <summary>Sets the shim of OAuthAccountData.set_ProviderUserId(String value)</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.ShimOAuthAccountData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimOAuthAccountData.AllInstances.ProviderGet">
+            <summary>Sets the shim of OAuthAccountData.get_Provider()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimOAuthAccountData.AllInstances.ProviderSetString">
+            <summary>Sets the shim of OAuthAccountData.set_Provider(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimOAuthAccountData.AllInstances.ProviderUserIdGet">
+            <summary>Sets the shim of OAuthAccountData.get_ProviderUserId()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimOAuthAccountData.AllInstances.ProviderUserIdSetString">
+            <summary>Sets the shim of OAuthAccountData.set_ProviderUserId(String value)</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.ShimPreApplicationStartCode">
+            <summary>Shim type of WebMatrix.WebData.PreApplicationStartCode</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimPreApplicationStartCode.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimPreApplicationStartCode.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimPreApplicationStartCode.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimPreApplicationStartCode.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimPreApplicationStartCode.OnConnectionOpenedObjectConnectionEventArgs">
+            <summary>Sets the shim of PreApplicationStartCode.OnConnectionOpened(Object sender, ConnectionEventArgs e)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimPreApplicationStartCode.SetUpFormsAuthentication">
+            <summary>Sets the shim of PreApplicationStartCode.SetUpFormsAuthentication()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimPreApplicationStartCode.Start">
+            <summary>Sets the shim of PreApplicationStartCode.Start()</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider">
+            <summary>Shim type of WebMatrix.WebData.SimpleMembershipProvider</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.#ctor(WebMatrix.WebData.SimpleMembershipProvider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ApplicationNameGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ApplicationNameSetString">
+            <summary>Sets the shim of SimpleMembershipProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ChangePasswordQuestionAndAnswerStringStringStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ChangePasswordQuestionAndAnswer(String username, String password, String newPasswordQuestion, String newPasswordAnswer)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ChangePasswordStringStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ChangePassword(String username, String oldPassword, String newPassword)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ConfirmAccountString">
+            <summary>Sets the shim of SimpleMembershipProvider.ConfirmAccount(String accountConfirmationToken)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ConfirmAccountStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ConfirmAccount(String userName, String accountConfirmationToken)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.Constructor">
+            <summary>Sets the shim of SimpleMembershipProvider.SimpleMembershipProvider()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ConstructorMembershipProvider">
+            <summary>Sets the shim of SimpleMembershipProvider.SimpleMembershipProvider(MembershipProvider previousProvider)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.CreateAccountStringStringBoolean">
+            <summary>Sets the shim of SimpleMembershipProvider.CreateAccount(String userName, String password, Boolean requireConfirmationToken)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.CreateOrUpdateOAuthAccountStringStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.CreateOrUpdateOAuthAccount(String provider, String providerUserId, String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.CreateTablesIfNeeded">
+            <summary>Sets the shim of SimpleMembershipProvider.CreateTablesIfNeeded()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.CreateUserAndAccountStringStringBooleanIDictionaryOfStringObject">
+            <summary>Sets the shim of SimpleMembershipProvider.CreateUserAndAccount(String userName, String password, Boolean requireConfirmation, IDictionary`2&lt;String,Object&gt; values)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.CreateUserStringStringStringStringStringBooleanObjectMembershipCreateStatusOut">
+            <summary>Sets the shim of SimpleMembershipProvider.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, Object providerUserKey, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.DeleteAccountString">
+            <summary>Sets the shim of SimpleMembershipProvider.DeleteAccount(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.DeleteOAuthAccountStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.DeleteOAuthAccount(String provider, String providerUserId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.DeleteOAuthTokenString">
+            <summary>Sets the shim of SimpleMembershipProvider.DeleteOAuthToken(String token)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.DeleteUserAndAccountInternalString">
+            <summary>Sets the shim of SimpleMembershipProvider.DeleteUserAndAccountInternal(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.DeleteUserStringBoolean">
+            <summary>Sets the shim of SimpleMembershipProvider.DeleteUser(String username, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.EnablePasswordResetGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_EnablePasswordReset()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.EnablePasswordRetrievalGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_EnablePasswordRetrieval()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.FindUsersByEmailStringInt32Int32Int32Out">
+            <summary>Sets the shim of SimpleMembershipProvider.FindUsersByEmail(String emailToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.FindUsersByNameStringInt32Int32Int32Out">
+            <summary>Sets the shim of SimpleMembershipProvider.FindUsersByName(String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GeneratePasswordResetTokenStringInt32">
+            <summary>Sets the shim of SimpleMembershipProvider.GeneratePasswordResetToken(String userName, Int32 tokenExpirationInMinutesFromNow)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GenerateToken">
+            <summary>Sets the shim of SimpleMembershipProvider.GenerateToken()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GenerateTokenRandomNumberGenerator">
+            <summary>Sets the shim of SimpleMembershipProvider.GenerateToken(RandomNumberGenerator generator)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetAccountsForUserString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetAccountsForUser(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetAllUsersInt32Int32Int32Out">
+            <summary>Sets the shim of SimpleMembershipProvider.GetAllUsers(Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetCreateDateString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetCreateDate(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetLastPasswordFailureDateString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetLastPasswordFailureDate(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetNumberOfUsersOnline">
+            <summary>Sets the shim of SimpleMembershipProvider.GetNumberOfUsersOnline()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetOAuthTokenSecretString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetOAuthTokenSecret(String token)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetPasswordChangedDateString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetPasswordChangedDate(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetPasswordFailuresSinceLastSuccessString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetPasswordFailuresSinceLastSuccess(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetPasswordStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetPassword(String username, String answer)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetUserIdFromOAuthStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUserIdFromOAuth(String provider, String providerUserId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetUserIdFromPasswordResetTokenString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUserIdFromPasswordResetToken(String token)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetUserIdString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUserId(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetUserNameByEmailString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUserNameByEmail(String email)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetUserNameFromIdInt32">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUserNameFromId(Int32 userId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetUserObjectBoolean">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUser(Object providerUserKey, Boolean userIsOnline)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.GetUserStringBoolean">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUser(String username, Boolean userIsOnline)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.HasLocalAccountInt32">
+            <summary>Sets the shim of SimpleMembershipProvider.HasLocalAccount(Int32 userId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.InitializeCalledGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_InitializeCalled()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.InitializeCalledSetBoolean">
+            <summary>Sets the shim of SimpleMembershipProvider.set_InitializeCalled(Boolean value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.InitializeStringNameValueCollection">
+            <summary>Sets the shim of SimpleMembershipProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.IsConfirmedString">
+            <summary>Sets the shim of SimpleMembershipProvider.IsConfirmed(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.MaxInvalidPasswordAttemptsGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_MaxInvalidPasswordAttempts()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.MembershipTableNameGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_MembershipTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.MinRequiredNonAlphanumericCharactersGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_MinRequiredNonAlphanumericCharacters()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.MinRequiredPasswordLengthGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_MinRequiredPasswordLength()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.OAuthMembershipTableNameGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_OAuthMembershipTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.OAuthTokenTableNameGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_OAuthTokenTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.PasswordAttemptWindowGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_PasswordAttemptWindow()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.PasswordFormatGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_PasswordFormat()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.PasswordStrengthRegularExpressionGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_PasswordStrengthRegularExpression()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.PreviousProviderGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_PreviousProvider()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ReplaceOAuthRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ReplaceOAuthRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.RequiresQuestionAndAnswerGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_RequiresQuestionAndAnswer()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.RequiresUniqueEmailGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_RequiresUniqueEmail()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ResetPasswordStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ResetPassword(String username, String answer)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ResetPasswordWithTokenStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ResetPasswordWithToken(String token, String newPassword)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.SafeUserIdColumnGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_SafeUserIdColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.SafeUserNameColumnGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_SafeUserNameColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.SafeUserTableNameGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_SafeUserTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.StoreOAuthRequestTokenStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.StoreOAuthRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.UnlockUserString">
+            <summary>Sets the shim of SimpleMembershipProvider.UnlockUser(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.UpdateUserMembershipUser">
+            <summary>Sets the shim of SimpleMembershipProvider.UpdateUser(MembershipUser user)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.UserIdColumnGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_UserIdColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.UserIdColumnSetString">
+            <summary>Sets the shim of SimpleMembershipProvider.set_UserIdColumn(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.UserNameColumnGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_UserNameColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.UserNameColumnSetString">
+            <summary>Sets the shim of SimpleMembershipProvider.set_UserNameColumn(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.UserTableNameGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_UserTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.UserTableNameSetString">
+            <summary>Sets the shim of SimpleMembershipProvider.set_UserTableName(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ValidateUserStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ValidateUser(String username, String password)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.ValidateUserTable">
+            <summary>Sets the shim of SimpleMembershipProvider.ValidateUserTable()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.VerifyInitialized">
+            <summary>Sets the shim of SimpleMembershipProvider.VerifyInitialized()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider._ctorb__0ObjectValidatePasswordEventArgs">
+            <summary>Sets the shim of SimpleMembershipProvider.&lt;.ctor&gt;b__0(Object sender, ValidatePasswordEventArgs args)</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.ApplicationNameGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.ApplicationNameSetString">
+            <summary>Sets the shim of SimpleMembershipProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.ChangePasswordQuestionAndAnswerStringStringStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ChangePasswordQuestionAndAnswer(String username, String password, String newPasswordQuestion, String newPasswordAnswer)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.ChangePasswordStringStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ChangePassword(String username, String oldPassword, String newPassword)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.ConfirmAccountString">
+            <summary>Sets the shim of SimpleMembershipProvider.ConfirmAccount(String accountConfirmationToken)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.ConfirmAccountStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ConfirmAccount(String userName, String accountConfirmationToken)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.CreateAccountStringStringBoolean">
+            <summary>Sets the shim of SimpleMembershipProvider.CreateAccount(String userName, String password, Boolean requireConfirmationToken)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.CreateOrUpdateOAuthAccountStringStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.CreateOrUpdateOAuthAccount(String provider, String providerUserId, String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.CreateTablesIfNeeded">
+            <summary>Sets the shim of SimpleMembershipProvider.CreateTablesIfNeeded()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.CreateUserAndAccountStringStringBooleanIDictionaryOfStringObject">
+            <summary>Sets the shim of SimpleMembershipProvider.CreateUserAndAccount(String userName, String password, Boolean requireConfirmation, IDictionary`2&lt;String,Object&gt; values)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.CreateUserStringStringStringStringStringBooleanObjectMembershipCreateStatusOut">
+            <summary>Sets the shim of SimpleMembershipProvider.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, Object providerUserKey, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.DeleteAccountString">
+            <summary>Sets the shim of SimpleMembershipProvider.DeleteAccount(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.DeleteOAuthAccountStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.DeleteOAuthAccount(String provider, String providerUserId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.DeleteOAuthTokenString">
+            <summary>Sets the shim of SimpleMembershipProvider.DeleteOAuthToken(String token)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.DeleteUserAndAccountInternalString">
+            <summary>Sets the shim of SimpleMembershipProvider.DeleteUserAndAccountInternal(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.DeleteUserStringBoolean">
+            <summary>Sets the shim of SimpleMembershipProvider.DeleteUser(String username, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.EnablePasswordResetGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_EnablePasswordReset()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.EnablePasswordRetrievalGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_EnablePasswordRetrieval()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.FindUsersByEmailStringInt32Int32Int32Out">
+            <summary>Sets the shim of SimpleMembershipProvider.FindUsersByEmail(String emailToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.FindUsersByNameStringInt32Int32Int32Out">
+            <summary>Sets the shim of SimpleMembershipProvider.FindUsersByName(String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GeneratePasswordResetTokenStringInt32">
+            <summary>Sets the shim of SimpleMembershipProvider.GeneratePasswordResetToken(String userName, Int32 tokenExpirationInMinutesFromNow)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetAccountsForUserString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetAccountsForUser(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetAllUsersInt32Int32Int32Out">
+            <summary>Sets the shim of SimpleMembershipProvider.GetAllUsers(Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetCreateDateString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetCreateDate(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetLastPasswordFailureDateString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetLastPasswordFailureDate(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetNumberOfUsersOnline">
+            <summary>Sets the shim of SimpleMembershipProvider.GetNumberOfUsersOnline()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetOAuthTokenSecretString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetOAuthTokenSecret(String token)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetPasswordChangedDateString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetPasswordChangedDate(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetPasswordFailuresSinceLastSuccessString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetPasswordFailuresSinceLastSuccess(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetPasswordStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetPassword(String username, String answer)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetUserIdFromOAuthStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUserIdFromOAuth(String provider, String providerUserId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetUserIdFromPasswordResetTokenString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUserIdFromPasswordResetToken(String token)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetUserIdString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUserId(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetUserNameByEmailString">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUserNameByEmail(String email)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetUserNameFromIdInt32">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUserNameFromId(Int32 userId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetUserObjectBoolean">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUser(Object providerUserKey, Boolean userIsOnline)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.GetUserStringBoolean">
+            <summary>Sets the shim of SimpleMembershipProvider.GetUser(String username, Boolean userIsOnline)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.HasLocalAccountInt32">
+            <summary>Sets the shim of SimpleMembershipProvider.HasLocalAccount(Int32 userId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.InitializeCalledGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_InitializeCalled()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.InitializeCalledSetBoolean">
+            <summary>Sets the shim of SimpleMembershipProvider.set_InitializeCalled(Boolean value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.InitializeStringNameValueCollection">
+            <summary>Sets the shim of SimpleMembershipProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.IsConfirmedString">
+            <summary>Sets the shim of SimpleMembershipProvider.IsConfirmed(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.MaxInvalidPasswordAttemptsGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_MaxInvalidPasswordAttempts()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.MinRequiredNonAlphanumericCharactersGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_MinRequiredNonAlphanumericCharacters()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.MinRequiredPasswordLengthGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_MinRequiredPasswordLength()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.PasswordAttemptWindowGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_PasswordAttemptWindow()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.PasswordFormatGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_PasswordFormat()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.PasswordStrengthRegularExpressionGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_PasswordStrengthRegularExpression()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.PreviousProviderGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_PreviousProvider()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.ReplaceOAuthRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ReplaceOAuthRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.RequiresQuestionAndAnswerGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_RequiresQuestionAndAnswer()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.RequiresUniqueEmailGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_RequiresUniqueEmail()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.ResetPasswordStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ResetPassword(String username, String answer)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.ResetPasswordWithTokenStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ResetPasswordWithToken(String token, String newPassword)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.SafeUserIdColumnGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_SafeUserIdColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.SafeUserNameColumnGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_SafeUserNameColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.SafeUserTableNameGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_SafeUserTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.StoreOAuthRequestTokenStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.StoreOAuthRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.UnlockUserString">
+            <summary>Sets the shim of SimpleMembershipProvider.UnlockUser(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.UpdateUserMembershipUser">
+            <summary>Sets the shim of SimpleMembershipProvider.UpdateUser(MembershipUser user)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.UserIdColumnGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_UserIdColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.UserIdColumnSetString">
+            <summary>Sets the shim of SimpleMembershipProvider.set_UserIdColumn(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.UserNameColumnGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_UserNameColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.UserNameColumnSetString">
+            <summary>Sets the shim of SimpleMembershipProvider.set_UserNameColumn(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.UserTableNameGet">
+            <summary>Sets the shim of SimpleMembershipProvider.get_UserTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.UserTableNameSetString">
+            <summary>Sets the shim of SimpleMembershipProvider.set_UserTableName(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.ValidateUserStringString">
+            <summary>Sets the shim of SimpleMembershipProvider.ValidateUser(String username, String password)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.ValidateUserTable">
+            <summary>Sets the shim of SimpleMembershipProvider.ValidateUserTable()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances.VerifyInitialized">
+            <summary>Sets the shim of SimpleMembershipProvider.VerifyInitialized()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleMembershipProvider.AllInstances._ctorb__0ObjectValidatePasswordEventArgs">
+            <summary>Sets the shim of SimpleMembershipProvider.&lt;.ctor&gt;b__0(Object sender, ValidatePasswordEventArgs args)</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider">
+            <summary>Shim type of WebMatrix.WebData.SimpleRoleProvider</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.#ctor(WebMatrix.WebData.SimpleRoleProvider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AddUsersToRolesStringArrayStringArray">
+            <summary>Sets the shim of SimpleRoleProvider.AddUsersToRoles(String[] usernames, String[] roleNames)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.ApplicationNameGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.ApplicationNameSetString">
+            <summary>Sets the shim of SimpleRoleProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.Constructor">
+            <summary>Sets the shim of SimpleRoleProvider.SimpleRoleProvider()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.ConstructorRoleProvider">
+            <summary>Sets the shim of SimpleRoleProvider.SimpleRoleProvider(RoleProvider previousProvider)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.CreateRoleString">
+            <summary>Sets the shim of SimpleRoleProvider.CreateRole(String roleName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.CreateTablesIfNeeded">
+            <summary>Sets the shim of SimpleRoleProvider.CreateTablesIfNeeded()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.DeleteRoleStringBoolean">
+            <summary>Sets the shim of SimpleRoleProvider.DeleteRole(String roleName, Boolean throwOnPopulatedRole)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.FindUsersInRoleStringString">
+            <summary>Sets the shim of SimpleRoleProvider.FindUsersInRole(String roleName, String usernameToMatch)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.GetAllRoles">
+            <summary>Sets the shim of SimpleRoleProvider.GetAllRoles()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.GetRolesForUserString">
+            <summary>Sets the shim of SimpleRoleProvider.GetRolesForUser(String username)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.GetUsersInRoleString">
+            <summary>Sets the shim of SimpleRoleProvider.GetUsersInRole(String roleName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.InitializeCalledGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_InitializeCalled()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.InitializeCalledSetBoolean">
+            <summary>Sets the shim of SimpleRoleProvider.set_InitializeCalled(Boolean value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.IsUserInRoleStringString">
+            <summary>Sets the shim of SimpleRoleProvider.IsUserInRole(String username, String roleName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.PreviousProviderGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_PreviousProvider()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.RemoveUsersFromRolesStringArrayStringArray">
+            <summary>Sets the shim of SimpleRoleProvider.RemoveUsersFromRoles(String[] usernames, String[] roleNames)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.RoleExistsString">
+            <summary>Sets the shim of SimpleRoleProvider.RoleExists(String roleName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.RoleTableNameGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_RoleTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.SafeUserIdColumnGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_SafeUserIdColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.SafeUserNameColumnGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_SafeUserNameColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.SafeUserTableNameGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_SafeUserTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.UserIdColumnGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_UserIdColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.UserIdColumnSetString">
+            <summary>Sets the shim of SimpleRoleProvider.set_UserIdColumn(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.UserNameColumnGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_UserNameColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.UserNameColumnSetString">
+            <summary>Sets the shim of SimpleRoleProvider.set_UserNameColumn(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.UserTableNameGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_UserTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.UserTableNameSetString">
+            <summary>Sets the shim of SimpleRoleProvider.set_UserTableName(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.UsersInRoleTableNameGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_UsersInRoleTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.VerifyInitialized">
+            <summary>Sets the shim of SimpleRoleProvider.VerifyInitialized()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider._GetAllRolesb__6Object">
+            <summary>Sets the shim of SimpleRoleProvider.&lt;GetAllRoles&gt;b__6(Object d)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider._GetRolesForUserb__bObject">
+            <summary>Sets the shim of SimpleRoleProvider.&lt;GetRolesForUser&gt;b__b(Object d)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider._GetUsersInRoleb__10Object">
+            <summary>Sets the shim of SimpleRoleProvider.&lt;GetUsersInRole&gt;b__10(Object d)</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.AddUsersToRolesStringArrayStringArray">
+            <summary>Sets the shim of SimpleRoleProvider.AddUsersToRoles(String[] usernames, String[] roleNames)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.ApplicationNameGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.ApplicationNameSetString">
+            <summary>Sets the shim of SimpleRoleProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.CreateRoleString">
+            <summary>Sets the shim of SimpleRoleProvider.CreateRole(String roleName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.CreateTablesIfNeeded">
+            <summary>Sets the shim of SimpleRoleProvider.CreateTablesIfNeeded()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.DeleteRoleStringBoolean">
+            <summary>Sets the shim of SimpleRoleProvider.DeleteRole(String roleName, Boolean throwOnPopulatedRole)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.FindUsersInRoleStringString">
+            <summary>Sets the shim of SimpleRoleProvider.FindUsersInRole(String roleName, String usernameToMatch)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.GetAllRoles">
+            <summary>Sets the shim of SimpleRoleProvider.GetAllRoles()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.GetRolesForUserString">
+            <summary>Sets the shim of SimpleRoleProvider.GetRolesForUser(String username)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.GetUsersInRoleString">
+            <summary>Sets the shim of SimpleRoleProvider.GetUsersInRole(String roleName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.InitializeCalledGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_InitializeCalled()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.InitializeCalledSetBoolean">
+            <summary>Sets the shim of SimpleRoleProvider.set_InitializeCalled(Boolean value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.IsUserInRoleStringString">
+            <summary>Sets the shim of SimpleRoleProvider.IsUserInRole(String username, String roleName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.PreviousProviderGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_PreviousProvider()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.RemoveUsersFromRolesStringArrayStringArray">
+            <summary>Sets the shim of SimpleRoleProvider.RemoveUsersFromRoles(String[] usernames, String[] roleNames)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.RoleExistsString">
+            <summary>Sets the shim of SimpleRoleProvider.RoleExists(String roleName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.SafeUserIdColumnGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_SafeUserIdColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.SafeUserNameColumnGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_SafeUserNameColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.SafeUserTableNameGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_SafeUserTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.UserIdColumnGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_UserIdColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.UserIdColumnSetString">
+            <summary>Sets the shim of SimpleRoleProvider.set_UserIdColumn(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.UserNameColumnGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_UserNameColumn()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.UserNameColumnSetString">
+            <summary>Sets the shim of SimpleRoleProvider.set_UserNameColumn(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.UserTableNameGet">
+            <summary>Sets the shim of SimpleRoleProvider.get_UserTableName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.UserTableNameSetString">
+            <summary>Sets the shim of SimpleRoleProvider.set_UserTableName(String value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimSimpleRoleProvider.AllInstances.VerifyInitialized">
+            <summary>Sets the shim of SimpleRoleProvider.VerifyInitialized()</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.ShimWebSecurity">
+            <summary>Shim type of WebMatrix.WebData.WebSecurity</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimWebSecurity.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimWebSecurity.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.ShimWebSecurity.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.ChangePasswordStringStringString">
+            <summary>Sets the shim of WebSecurity.ChangePassword(String userName, String currentPassword, String newPassword)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.ConfirmAccountString">
+            <summary>Sets the shim of WebSecurity.ConfirmAccount(String accountConfirmationToken)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.ConfirmAccountStringString">
+            <summary>Sets the shim of WebSecurity.ConfirmAccount(String userName, String accountConfirmationToken)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.ContextGet">
+            <summary>Sets the shim of WebSecurity.get_Context()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.CreateAccountStringStringBoolean">
+            <summary>Sets the shim of WebSecurity.CreateAccount(String userName, String password, Boolean requireConfirmationToken)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.CreateDefaultSimpleMembershipProviderStringMembershipProvider">
+            <summary>Sets the shim of WebSecurity.CreateDefaultSimpleMembershipProvider(String name, MembershipProvider currentDefault)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.CreateDefaultSimpleRoleProviderStringRoleProvider">
+            <summary>Sets the shim of WebSecurity.CreateDefaultSimpleRoleProvider(String name, RoleProvider currentDefault)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.CreateUserAndAccountStringStringObjectBoolean">
+            <summary>Sets the shim of WebSecurity.CreateUserAndAccount(String userName, String password, Object propertyValues, Boolean requireConfirmationToken)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.CurrentUserIdGet">
+            <summary>Sets the shim of WebSecurity.get_CurrentUserId()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.CurrentUserNameGet">
+            <summary>Sets the shim of WebSecurity.get_CurrentUserName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.GeneratePasswordResetTokenStringInt32">
+            <summary>Sets the shim of WebSecurity.GeneratePasswordResetToken(String userName, Int32 tokenExpirationInMinutesFromNow)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.GetCreateDateString">
+            <summary>Sets the shim of WebSecurity.GetCreateDate(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.GetLastPasswordFailureDateString">
+            <summary>Sets the shim of WebSecurity.GetLastPasswordFailureDate(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.GetPasswordChangedDateString">
+            <summary>Sets the shim of WebSecurity.GetPasswordChangedDate(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.GetPasswordFailuresSinceLastSuccessString">
+            <summary>Sets the shim of WebSecurity.GetPasswordFailuresSinceLastSuccess(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.GetUserIdFromPasswordResetTokenString">
+            <summary>Sets the shim of WebSecurity.GetUserIdFromPasswordResetToken(String token)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.GetUserIdString">
+            <summary>Sets the shim of WebSecurity.GetUserId(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.HasUserIdGet">
+            <summary>Sets the shim of WebSecurity.get_HasUserId()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.InitializeDatabaseConnectionStringStringStringStringBoolean">
+            <summary>Sets the shim of WebSecurity.InitializeDatabaseConnection(String connectionStringName, String userTableName, String userIdColumn, String userNameColumn, Boolean autoCreateTables)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.InitializeDatabaseConnectionStringStringStringStringStringBoolean">
+            <summary>Sets the shim of WebSecurity.InitializeDatabaseConnection(String connectionString, String providerName, String userTableName, String userIdColumn, String userNameColumn, Boolean autoCreateTables)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.InitializedGet">
+            <summary>Sets the shim of WebSecurity.get_Initialized()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.InitializedSetBoolean">
+            <summary>Sets the shim of WebSecurity.set_Initialized(Boolean value)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.IsAccountLockedOutInternalExtendedMembershipProviderStringInt32TimeSpan">
+            <summary>Sets the shim of WebSecurity.IsAccountLockedOutInternal(ExtendedMembershipProvider provider, String userName, Int32 allowedPasswordAttempts, TimeSpan interval)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.IsAccountLockedOutStringInt32Int32">
+            <summary>Sets the shim of WebSecurity.IsAccountLockedOut(String userName, Int32 allowedPasswordAttempts, Int32 intervalInSeconds)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.IsAccountLockedOutStringInt32TimeSpan">
+            <summary>Sets the shim of WebSecurity.IsAccountLockedOut(String userName, Int32 allowedPasswordAttempts, TimeSpan interval)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.IsAuthenticatedGet">
+            <summary>Sets the shim of WebSecurity.get_IsAuthenticated()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.IsConfirmedString">
+            <summary>Sets the shim of WebSecurity.IsConfirmed(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.IsCurrentUserString">
+            <summary>Sets the shim of WebSecurity.IsCurrentUser(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.IsUserLoggedOnInt32">
+            <summary>Sets the shim of WebSecurity.IsUserLoggedOn(Int32 userId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.LoginStringStringBoolean">
+            <summary>Sets the shim of WebSecurity.Login(String userName, String password, Boolean persistCookie)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.Logout">
+            <summary>Sets the shim of WebSecurity.Logout()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.PreAppStartInit">
+            <summary>Sets the shim of WebSecurity.PreAppStartInit()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.RequestGet">
+            <summary>Sets the shim of WebSecurity.get_Request()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.RequireAuthenticatedUser">
+            <summary>Sets the shim of WebSecurity.RequireAuthenticatedUser()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.RequireRolesStringArray">
+            <summary>Sets the shim of WebSecurity.RequireRoles(String[] roles)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.RequireUserInt32">
+            <summary>Sets the shim of WebSecurity.RequireUser(Int32 userId)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.RequireUserString">
+            <summary>Sets the shim of WebSecurity.RequireUser(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.ResetPasswordStringString">
+            <summary>Sets the shim of WebSecurity.ResetPassword(String passwordResetToken, String newPassword)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.ResponseGet">
+            <summary>Sets the shim of WebSecurity.get_Response()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.StaticConstructor">
+            <summary>Sets the shim of WebSecurity.WebSecurity()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.UserExistsString">
+            <summary>Sets the shim of WebSecurity.UserExists(String userName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.ShimWebSecurity.VerifyProvider">
+            <summary>Sets the shim of WebSecurity.VerifyProvider()</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider">
+            <summary>Stub type of WebMatrix.WebData.ExtendedMembershipProvider</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ApplicationNameGet">
+            <summary>Sets the stub of MembershipProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ApplicationNameSetString">
+            <summary>Sets the stub of MembershipProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.AttachBackingFieldToApplicationName">
+            <summary>Attaches delegates to emulate StubExtendedMembershipProvider.ApplicationName as a property with a backing field.</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ChangePassword(System.String,System.String,System.String)">
+            <summary>Sets the stub of MembershipProvider.ChangePassword(String username, String oldPassword, String newPassword)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ChangePasswordQuestionAndAnswer(System.String,System.String,System.String,System.String)">
+            <summary>Sets the stub of MembershipProvider.ChangePasswordQuestionAndAnswer(String username, String password, String newPasswordQuestion, String newPasswordAnswer)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ChangePasswordQuestionAndAnswerStringStringStringString">
+            <summary>Sets the stub of MembershipProvider.ChangePasswordQuestionAndAnswer(String username, String password, String newPasswordQuestion, String newPasswordAnswer)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ChangePasswordStringStringString">
+            <summary>Sets the stub of MembershipProvider.ChangePassword(String username, String oldPassword, String newPassword)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ConfirmAccount(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.ConfirmAccount(String accountConfirmationToken)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ConfirmAccount(System.String,System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.ConfirmAccount(String userName, String accountConfirmationToken)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ConfirmAccountString">
+            <summary>Sets the stub of ExtendedMembershipProvider.ConfirmAccount(String accountConfirmationToken)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ConfirmAccountStringString">
+            <summary>Sets the stub of ExtendedMembershipProvider.ConfirmAccount(String userName, String accountConfirmationToken)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateAccount(System.String,System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateAccount(String userName, String password)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateAccount(System.String,System.String,System.Boolean)">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateAccount(String userName, String password, Boolean requireConfirmationToken)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateAccountStringString">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateAccount(String userName, String password)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateAccountStringStringBoolean">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateAccount(String userName, String password, Boolean requireConfirmationToken)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateOrUpdateOAuthAccount(System.String,System.String,System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateOrUpdateOAuthAccount(String provider, String providerUserId, String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateOrUpdateOAuthAccountStringStringString">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateOrUpdateOAuthAccount(String provider, String providerUserId, String userName)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateUser(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Object,System.Web.Security.MembershipCreateStatus@)">
+            <summary>Sets the stub of MembershipProvider.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, Object providerUserKey, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateUserAndAccount(System.String,System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateUserAndAccount(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password, IDictionary`2&lt;String,Object&gt; values)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateUserAndAccount(System.String,System.String,System.Boolean)">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password, Boolean requireConfirmation)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateUserAndAccount(System.String,System.String,System.Boolean,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password, Boolean requireConfirmation, IDictionary`2&lt;String,Object&gt; values)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateUserAndAccountStringString">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateUserAndAccountStringStringBoolean">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password, Boolean requireConfirmation)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateUserAndAccountStringStringBooleanIDictionaryOfStringObject">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password, Boolean requireConfirmation, IDictionary`2&lt;String,Object&gt; values)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateUserAndAccountStringStringIDictionaryOfStringObject">
+            <summary>Sets the stub of ExtendedMembershipProvider.CreateUserAndAccount(String userName, String password, IDictionary`2&lt;String,Object&gt; values)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CreateUserStringStringStringStringStringBooleanObjectMembershipCreateStatusOut">
+            <summary>Sets the stub of MembershipProvider.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, Object providerUserKey, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.DecryptPassword(System.Byte[])">
+            <summary>Sets the stub of MembershipProvider.DecryptPassword(Byte[] encodedPassword)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.DecryptPasswordByteArray">
+            <summary>Sets the stub of MembershipProvider.DecryptPassword(Byte[] encodedPassword)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.DeleteAccount(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.DeleteAccount(String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.DeleteAccountString">
+            <summary>Sets the stub of ExtendedMembershipProvider.DeleteAccount(String userName)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.DeleteOAuthAccount(System.String,System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.DeleteOAuthAccount(String provider, String providerUserId)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.DeleteOAuthAccountStringString">
+            <summary>Sets the stub of ExtendedMembershipProvider.DeleteOAuthAccount(String provider, String providerUserId)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.DeleteOAuthToken(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.DeleteOAuthToken(String token)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.DeleteOAuthTokenString">
+            <summary>Sets the stub of ExtendedMembershipProvider.DeleteOAuthToken(String token)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.DeleteUser(System.String,System.Boolean)">
+            <summary>Sets the stub of MembershipProvider.DeleteUser(String username, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.DeleteUserStringBoolean">
+            <summary>Sets the stub of MembershipProvider.DeleteUser(String username, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.DescriptionGet">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.EnablePasswordResetGet">
+            <summary>Sets the stub of MembershipProvider.get_EnablePasswordReset()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.EnablePasswordRetrievalGet">
+            <summary>Sets the stub of MembershipProvider.get_EnablePasswordRetrieval()</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.EncryptPassword(System.Byte[])">
+            <summary>Sets the stub of MembershipProvider.EncryptPassword(Byte[] password)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.EncryptPassword(System.Byte[],System.Web.Configuration.MembershipPasswordCompatibilityMode)">
+            <summary>Sets the stub of MembershipProvider.EncryptPassword(Byte[] password, MembershipPasswordCompatibilityMode legacyPasswordCompatibilityMode)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.EncryptPasswordByteArray">
+            <summary>Sets the stub of MembershipProvider.EncryptPassword(Byte[] password)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.EncryptPasswordByteArrayMembershipPasswordCompatibilityMode">
+            <summary>Sets the stub of MembershipProvider.EncryptPassword(Byte[] password, MembershipPasswordCompatibilityMode legacyPasswordCompatibilityMode)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.FindUsersByEmail(System.String,System.Int32,System.Int32,System.Int32@)">
+            <summary>Sets the stub of MembershipProvider.FindUsersByEmail(String emailToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.FindUsersByEmailStringInt32Int32Int32Out">
+            <summary>Sets the stub of MembershipProvider.FindUsersByEmail(String emailToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.FindUsersByName(System.String,System.Int32,System.Int32,System.Int32@)">
+            <summary>Sets the stub of MembershipProvider.FindUsersByName(String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.FindUsersByNameStringInt32Int32Int32Out">
+            <summary>Sets the stub of MembershipProvider.FindUsersByName(String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GeneratePasswordResetToken(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.GeneratePasswordResetToken(String userName)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GeneratePasswordResetToken(System.String,System.Int32)">
+            <summary>Sets the stub of ExtendedMembershipProvider.GeneratePasswordResetToken(String userName, Int32 tokenExpirationInMinutesFromNow)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GeneratePasswordResetTokenString">
+            <summary>Sets the stub of ExtendedMembershipProvider.GeneratePasswordResetToken(String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GeneratePasswordResetTokenStringInt32">
+            <summary>Sets the stub of ExtendedMembershipProvider.GeneratePasswordResetToken(String userName, Int32 tokenExpirationInMinutesFromNow)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetAccountsForUser(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetAccountsForUser(String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetAccountsForUserString">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetAccountsForUser(String userName)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetAllUsers(System.Int32,System.Int32,System.Int32@)">
+            <summary>Sets the stub of MembershipProvider.GetAllUsers(Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetAllUsersInt32Int32Int32Out">
+            <summary>Sets the stub of MembershipProvider.GetAllUsers(Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetCreateDate(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetCreateDate(String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetCreateDateString">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetCreateDate(String userName)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetLastPasswordFailureDate(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetLastPasswordFailureDate(String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetLastPasswordFailureDateString">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetLastPasswordFailureDate(String userName)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetNumberOfUsersOnline">
+            <summary>Sets the stub of MembershipProvider.GetNumberOfUsersOnline()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetNumberOfUsersOnline01">
+            <summary>Sets the stub of MembershipProvider.GetNumberOfUsersOnline()</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetOAuthTokenSecret(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetOAuthTokenSecret(String token)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetOAuthTokenSecretString">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetOAuthTokenSecret(String token)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetPassword(System.String,System.String)">
+            <summary>Sets the stub of MembershipProvider.GetPassword(String username, String answer)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetPasswordChangedDate(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetPasswordChangedDate(String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetPasswordChangedDateString">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetPasswordChangedDate(String userName)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetPasswordFailuresSinceLastSuccess(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetPasswordFailuresSinceLastSuccess(String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetPasswordFailuresSinceLastSuccessString">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetPasswordFailuresSinceLastSuccess(String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetPasswordStringString">
+            <summary>Sets the stub of MembershipProvider.GetPassword(String username, String answer)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUser(System.Object,System.Boolean)">
+            <summary>Sets the stub of MembershipProvider.GetUser(Object providerUserKey, Boolean userIsOnline)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUser(System.String,System.Boolean)">
+            <summary>Sets the stub of MembershipProvider.GetUser(String username, Boolean userIsOnline)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUserIdFromOAuth(System.String,System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetUserIdFromOAuth(String provider, String providerUserId)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUserIdFromOAuthStringString">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetUserIdFromOAuth(String provider, String providerUserId)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUserIdFromPasswordResetToken(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetUserIdFromPasswordResetToken(String token)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUserIdFromPasswordResetTokenString">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetUserIdFromPasswordResetToken(String token)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUserNameByEmail(System.String)">
+            <summary>Sets the stub of MembershipProvider.GetUserNameByEmail(String email)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUserNameByEmailString">
+            <summary>Sets the stub of MembershipProvider.GetUserNameByEmail(String email)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUserNameFromId(System.Int32)">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetUserNameFromId(Int32 userId)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUserNameFromIdInt32">
+            <summary>Sets the stub of ExtendedMembershipProvider.GetUserNameFromId(Int32 userId)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUserObjectBoolean">
+            <summary>Sets the stub of MembershipProvider.GetUser(Object providerUserKey, Boolean userIsOnline)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.GetUserStringBoolean">
+            <summary>Sets the stub of MembershipProvider.GetUser(String username, Boolean userIsOnline)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.HasLocalAccount(System.Int32)">
+            <summary>Sets the stub of ExtendedMembershipProvider.HasLocalAccount(Int32 userId)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.HasLocalAccountInt32">
+            <summary>Sets the stub of ExtendedMembershipProvider.HasLocalAccount(Int32 userId)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>Sets the stub of ProviderBase.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.InitializeStringNameValueCollection">
+            <summary>Sets the stub of ProviderBase.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.InitializeStub">
+            <summary>Initializes a new instance of type StubExtendedMembershipProvider</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.IsConfirmed(System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.IsConfirmed(String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.IsConfirmedString">
+            <summary>Sets the stub of ExtendedMembershipProvider.IsConfirmed(String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.MaxInvalidPasswordAttemptsGet">
+            <summary>Sets the stub of MembershipProvider.get_MaxInvalidPasswordAttempts()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.MinRequiredNonAlphanumericCharactersGet">
+            <summary>Sets the stub of MembershipProvider.get_MinRequiredNonAlphanumericCharacters()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.MinRequiredPasswordLengthGet">
+            <summary>Sets the stub of MembershipProvider.get_MinRequiredPasswordLength()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.NameGet">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.OnValidatingPassword(System.Web.Security.ValidatePasswordEventArgs)">
+            <summary>Sets the stub of MembershipProvider.OnValidatingPassword(ValidatePasswordEventArgs e)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.OnValidatingPasswordValidatePasswordEventArgs">
+            <summary>Sets the stub of MembershipProvider.OnValidatingPassword(ValidatePasswordEventArgs e)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.PasswordAttemptWindowGet">
+            <summary>Sets the stub of MembershipProvider.get_PasswordAttemptWindow()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.PasswordFormatGet">
+            <summary>Sets the stub of MembershipProvider.get_PasswordFormat()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.PasswordStrengthRegularExpressionGet">
+            <summary>Sets the stub of MembershipProvider.get_PasswordStrengthRegularExpression()</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ReplaceOAuthRequestTokenWithAccessToken(System.String,System.String,System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.ReplaceOAuthRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ReplaceOAuthRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the stub of ExtendedMembershipProvider.ReplaceOAuthRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.RequiresQuestionAndAnswerGet">
+            <summary>Sets the stub of MembershipProvider.get_RequiresQuestionAndAnswer()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.RequiresUniqueEmailGet">
+            <summary>Sets the stub of MembershipProvider.get_RequiresUniqueEmail()</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ResetPassword(System.String,System.String)">
+            <summary>Sets the stub of MembershipProvider.ResetPassword(String username, String answer)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ResetPasswordStringString">
+            <summary>Sets the stub of MembershipProvider.ResetPassword(String username, String answer)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ResetPasswordWithToken(System.String,System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.ResetPasswordWithToken(String token, String newPassword)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ResetPasswordWithTokenStringString">
+            <summary>Sets the stub of ExtendedMembershipProvider.ResetPasswordWithToken(String token, String newPassword)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.StoreOAuthRequestToken(System.String,System.String)">
+            <summary>Sets the stub of ExtendedMembershipProvider.StoreOAuthRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.StoreOAuthRequestTokenStringString">
+            <summary>Sets the stub of ExtendedMembershipProvider.StoreOAuthRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.UnlockUser(System.String)">
+            <summary>Sets the stub of MembershipProvider.UnlockUser(String userName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.UnlockUserString">
+            <summary>Sets the stub of MembershipProvider.UnlockUser(String userName)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.UpdateUser(System.Web.Security.MembershipUser)">
+            <summary>Sets the stub of MembershipProvider.UpdateUser(MembershipUser user)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.UpdateUserMembershipUser">
+            <summary>Sets the stub of MembershipProvider.UpdateUser(MembershipUser user)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ValidateUser(System.String,System.String)">
+            <summary>Sets the stub of MembershipProvider.ValidateUser(String username, String password)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ValidateUserStringString">
+            <summary>Sets the stub of MembershipProvider.ValidateUser(String username, String password)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.ApplicationName">
+            <summary>Sets the stub of MembershipProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.Description">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.EnablePasswordReset">
+            <summary>Sets the stub of MembershipProvider.get_EnablePasswordReset()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.EnablePasswordRetrieval">
+            <summary>Sets the stub of MembershipProvider.get_EnablePasswordRetrieval()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.MaxInvalidPasswordAttempts">
+            <summary>Sets the stub of MembershipProvider.get_MaxInvalidPasswordAttempts()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.MinRequiredNonAlphanumericCharacters">
+            <summary>Sets the stub of MembershipProvider.get_MinRequiredNonAlphanumericCharacters()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.MinRequiredPasswordLength">
+            <summary>Sets the stub of MembershipProvider.get_MinRequiredPasswordLength()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.Name">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.PasswordAttemptWindow">
+            <summary>Sets the stub of MembershipProvider.get_PasswordAttemptWindow()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.PasswordFormat">
+            <summary>Sets the stub of MembershipProvider.get_PasswordFormat()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.PasswordStrengthRegularExpression">
+            <summary>Sets the stub of MembershipProvider.get_PasswordStrengthRegularExpression()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.RequiresQuestionAndAnswer">
+            <summary>Sets the stub of MembershipProvider.get_RequiresQuestionAndAnswer()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubExtendedMembershipProvider.RequiresUniqueEmail">
+            <summary>Sets the stub of MembershipProvider.get_RequiresUniqueEmail()</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.StubOAuthAccountData">
+            <summary>Stub type of WebMatrix.WebData.OAuthAccountData</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubOAuthAccountData.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubOAuthAccountData.InitializeStub">
+            <summary>Initializes a new instance of type StubOAuthAccountData</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubOAuthAccountData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubOAuthAccountData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubOAuthAccountData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebMatrix.WebData.Fakes.StubSimpleRoleProvider">
+            <summary>Stub type of WebMatrix.WebData.SimpleRoleProvider</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.#ctor(System.Web.Security.RoleProvider)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.AddUsersToRoles(System.String[],System.String[])">
+            <summary>Sets the stub of SimpleRoleProvider.AddUsersToRoles(String[] usernames, String[] roleNames)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.AddUsersToRolesStringArrayStringArray">
+            <summary>Sets the stub of SimpleRoleProvider.AddUsersToRoles(String[] usernames, String[] roleNames)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.ApplicationNameGet">
+            <summary>Sets the stub of SimpleRoleProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.ApplicationNameSetString">
+            <summary>Sets the stub of SimpleRoleProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.AttachBackingFieldToApplicationName">
+            <summary>Attaches delegates to emulate StubSimpleRoleProvider.ApplicationName as a property with a backing field.</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.CreateRole(System.String)">
+            <summary>Sets the stub of SimpleRoleProvider.CreateRole(String roleName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.CreateRoleString">
+            <summary>Sets the stub of SimpleRoleProvider.CreateRole(String roleName)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.DeleteRole(System.String,System.Boolean)">
+            <summary>Sets the stub of SimpleRoleProvider.DeleteRole(String roleName, Boolean throwOnPopulatedRole)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.DeleteRoleStringBoolean">
+            <summary>Sets the stub of SimpleRoleProvider.DeleteRole(String roleName, Boolean throwOnPopulatedRole)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.DescriptionGet">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.FindUsersInRole(System.String,System.String)">
+            <summary>Sets the stub of SimpleRoleProvider.FindUsersInRole(String roleName, String usernameToMatch)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.FindUsersInRoleStringString">
+            <summary>Sets the stub of SimpleRoleProvider.FindUsersInRole(String roleName, String usernameToMatch)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.GetAllRoles">
+            <summary>Sets the stub of SimpleRoleProvider.GetAllRoles()</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.GetAllRoles01">
+            <summary>Sets the stub of SimpleRoleProvider.GetAllRoles()</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.GetRolesForUser(System.String)">
+            <summary>Sets the stub of SimpleRoleProvider.GetRolesForUser(String username)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.GetRolesForUserString">
+            <summary>Sets the stub of SimpleRoleProvider.GetRolesForUser(String username)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.GetUsersInRole(System.String)">
+            <summary>Sets the stub of SimpleRoleProvider.GetUsersInRole(String roleName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.GetUsersInRoleString">
+            <summary>Sets the stub of SimpleRoleProvider.GetUsersInRole(String roleName)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>Sets the stub of ProviderBase.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.InitializeStringNameValueCollection">
+            <summary>Sets the stub of ProviderBase.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.InitializeStub">
+            <summary>Initializes a new instance of type StubSimpleRoleProvider</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.IsUserInRole(System.String,System.String)">
+            <summary>Sets the stub of SimpleRoleProvider.IsUserInRole(String username, String roleName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.IsUserInRoleStringString">
+            <summary>Sets the stub of SimpleRoleProvider.IsUserInRole(String username, String roleName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.NameGet">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.RemoveUsersFromRoles(System.String[],System.String[])">
+            <summary>Sets the stub of SimpleRoleProvider.RemoveUsersFromRoles(String[] usernames, String[] roleNames)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.RemoveUsersFromRolesStringArrayStringArray">
+            <summary>Sets the stub of SimpleRoleProvider.RemoveUsersFromRoles(String[] usernames, String[] roleNames)</summary>
+        </member>
+        <member name="M:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.RoleExists(System.String)">
+            <summary>Sets the stub of SimpleRoleProvider.RoleExists(String roleName)</summary>
+        </member>
+        <member name="F:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.RoleExistsString">
+            <summary>Sets the stub of SimpleRoleProvider.RoleExists(String roleName)</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.ApplicationName">
+            <summary>Sets the stub of SimpleRoleProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.Description">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:WebMatrix.WebData.Fakes.StubSimpleRoleProvider.Name">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+    </members>
+</doc>
