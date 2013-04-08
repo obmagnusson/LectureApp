@@ -1,4 +1,26 @@
-﻿html {
+﻿
+/* okkar css
+----------------------------------------------------------*/
+
+#leftmenu_main
+{
+	float: right;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* okkar css
+----------------------------------------------------------*/
+
+html {
     background-color: #e2e2e2;
     margin: 0;
     padding: 0;

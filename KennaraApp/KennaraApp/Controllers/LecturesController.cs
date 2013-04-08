@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Text;
 using System.Web.Http;
 using KennaraApp.Models;
 
@@ -35,6 +36,14 @@ namespace KennaraApp.Controllers
         public void Post(Lecture lecture)
         {
 			AppDataContext m_db = new AppDataContext();
+			string lectureUrl = lecture.LectureUrl;
+
+			StringBuilder b = new StringBuilder(lectureUrl);
+
+			b.Replace("embed", "watch");
+			
+			string nstr = b.ToString();
+			lecture.LectureUrl = nstr ;
 
 			lecture.DatePublished = DateTime.Now;
 			m_db.Lectures.Add(lecture);

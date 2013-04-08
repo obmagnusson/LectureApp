@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html >
+<html lang="en" ng-app="KennaraApp">
     <head>
         <meta charset="utf-8" />
-        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <title>@ViewBag.Title - My ASP.NET MVC Application   Layout :   {{ name }}</title>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
         @Styles.Render("~/Content/css")
@@ -25,6 +25,11 @@
                             <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                         </ul>
                     </nav>
+                        <div ng-view>
+                            Halló hér er ég
+                            {{ name }}
+                            > 
+                        </div>
                 </div>
             </div>
         </header>
@@ -44,5 +49,28 @@
 
         @Scripts.Render("~/bundles/jquery")
         @RenderSection("scripts", required: false)
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>
+	<script src="http://code.angularjs.org/1.1.4/angular-resource.js"></script>
+    <script src="Scripts/App.js"></script>
+	<script src="Scripts/IndexController.js"></script>
+	@*<script src="Scripts/RoomController.js"></script>
+	<script src="Scripts/LoginController.js"></script>
+	*@
     </body>
-</html>
+
+
+
+
+
+
+
+	
+	
+	
+
+
+	
+	
+
+</html>	
