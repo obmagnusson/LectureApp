@@ -40,7 +40,7 @@ namespace KennaraApp.Controllers
 
 			StringBuilder b = new StringBuilder(lectureUrl);
 
-			b.Replace("embed", "watch");
+			b.Replace( "watch?v=", "embed/");
 			
 			string nstr = b.ToString();
 			lecture.LectureUrl = nstr ;

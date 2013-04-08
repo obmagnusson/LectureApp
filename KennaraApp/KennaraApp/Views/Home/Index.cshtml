@@ -23,21 +23,20 @@
 
     			<div id="leftmenu_main"  ng-controller="IndexController" >    
                     
-                    <h3>List of Users</h3
+                    <h3>List of Users</h3>
                             
               
                     
              <form>
-			    <input type="text" ng-model="commentInput"/>
-			    <button type="submit" ng-click="postLecture()" >Post Lecture</button>
+			    <input type="text" ng-model="lectureTitle"/>
+			    <input type="text" ng-model="lectureUrlInput"/>
+			  
+                <button type="submit" ng-click="postLecture()">Post Lecture</button>
 		    </form>
 
                 </div>        
             <div id="leftmenu_bottom">
-                <form action="demo_form.asp">
-                <input type="text" name="Lecture" value=""><br>
-                    <input type="submit" value="Submit">
-                </form>
+
             </div>
         </div>
 <ol class="round">
@@ -45,16 +44,9 @@
     </li>
      <div ng-controller="IndexController"><p>Halló hér er ég
         {{ name }} </p> 
-
-    <table>
-    <tr><th>row number : : : </th></tr>
-            <tr ng-repeat="l in newlectures">
-       <td>Name  {{ l.LectureUrl }}</td>
-    </tr>
-  </table>
        
                <ul ng-repeat="l in newlectures" > 
-                        <li> <button ng-click="loadLecture()" >{{l.LectureUrl}}</button></li>      
+                        <li> <button ng-click="loadLecture(l.LectureUrl)" >{{l.Title}}</button></li>      
                     </ul> 
 
         <div class="embed-container" >

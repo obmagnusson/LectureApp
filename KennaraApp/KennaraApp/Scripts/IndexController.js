@@ -3,6 +3,8 @@
     $scope.roomList = [];
     $scope.newlectures = [];
     $scope.commentInput = "";
+    $scope.lectureTitle = "";
+    $scope.lectureUrlInput = "";
     $scope.selectedLecture = "http://www.youtube.com/embed/lT67liGjZhw";
     var Lectures = $resource('/api/lectures');
     var Lecture = $resource('/api/lectures/:id');
@@ -32,16 +34,21 @@
 
 
     $scope.postLecture = function () {
-        console.log("Commet :" + $scope.commentInput);
+        console.log("Commet :" + $scope.lectureUrlInput);
         var lec = new Lecture();
-        lec.LectureUrl = $scope.commentInput;
+        lec.LectureUrl = $scope.lectureUrlInput;
+        lec.Title = $scope.lectureTitle;
         lec.$save();
         getlectures();
-        $scope.commentInput = "";
+        $scope.lectureTitle = "";
+        $scope.lectureUrlInput = "";
     }
     
-    $scope.loadLecture = function (Lecture) {
-        $scope.selectedLecture = Lecture;
+    $scope.loadLecture = function (lect) {
+
+        console.log("lect  :" + lect);
+        $scope.selectedLecture = lect;
+        console.log("selected lecture :" + $scope.selectedLecture);
     }
 
 
