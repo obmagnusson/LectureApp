@@ -64,18 +64,12 @@
     
     $scope.loadLecture = function (lect) {
         console.log("lect  :" + lect);
-
         $scope.selectedLecture = lect;
-        //$scope.selectedLecture.URL = lect.LectureUrl;
-        //$scope.selectedLecture.Title = lect.Title;
-        //$scope.selectedLecture.id = lect.ID;
         getComments();
         console.log("selected lecture :" + $scope.selectedLecture);
     }
 
     $scope.postComment = function () {
-        console.log("Commetss :" + $scope.commentInput);
-        console.log("C :" + $scope.selectedLecture.ID);
 
         var comment = new Comment();
         comment.CommentText = $scope.commentInput;
