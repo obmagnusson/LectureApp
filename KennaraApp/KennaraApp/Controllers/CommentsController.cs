@@ -11,15 +11,20 @@ namespace KennaraApp.Controllers
     public class CommentsController : ApiController
     {
         // GET api/comments
-        public IEnumerable<Comment> Get()
+        public IQueryable<Comment> GetComments(int LectureID)
         {
 			AppDataContext db = new AppDataContext();
-			return db.Comments;
-        }
 
-        // GET api/comments/5
-        public Comment Get(int id)
-        {
+			var c = from comments in db.Comments
+					 where comments.Lecture.ID == LectureID
+					 select comments;
+
+			return c;
+		}
+
+         //GET api/comments/5
+		public Comment Get(int id)
+		{
 			AppDataContext db = new AppDataContext();
 			var com = (from comment in db.Comments
 					   where comment.ID == id
@@ -30,12 +35,18 @@ namespace KennaraApp.Controllers
 			}
 
 			return com;
-        }
+		}
 
         // POST api/comments
-        public void Post([FromBody]string value)
+        public void Post(Comment comment)
         {
-
+			AppDataContext m_db = new AppDataContext();
+		
+			comment.CommentDate = DateTime.Now;
+			comment.UserID = User.Identity.Name;
+			
+			m_db.Comments.Add(comment);
+			m_db.SaveChanges();		
         }
 
         // PUT api/comments/5

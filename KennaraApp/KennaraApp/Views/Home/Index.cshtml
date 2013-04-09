@@ -46,12 +46,21 @@
         {{ name }} </p> 
        
                <ul ng-repeat="l in newlectures" > 
-                        <li> <button ng-click="loadLecture(l.LectureUrl)" >{{l.Title}}</button></li>      
+                        <li> <button ng-click="loadLecture(l)" >{{l.Title}}</button></li>      
                     </ul> 
 
         <div class="embed-container" >
-           <iframe width="560" height="315" src="{{ selectedLecture }}" frameborder="0" allowfullscreen ></iframe>
-       </div>   
+           <iframe width="560" height="315" src="{{ selectedLecture.LectureUrl }}" frameborder="0" allowfullscreen alt="Web site is not avaialable"></iframe>
+       </div> 
+         
+         <ul ng-repeat="c in commentList " > 
+                        <li> {{c.CommentText}}</li>      
+                    </ul> 
+
+         <form>
+			    <input type="text" ng-model="commentInput"/>
+                <button type="submit" ng-click="postComment()">Post Comment</button>
+		 </form>   
     </div>
         
 
